@@ -1,0 +1,229 @@
+[2025-03-12 15:00:35.950] [INFO] [TelegraphSystem] Starting transmission of message: 'SOS'
+[2025-03-12 15:00:35.980] [INFO] [TelegraphSystem] Verifying message integrity
+[2025-03-12 15:00:35.982] [INFO] [TelegraphSystem] Message integrity verified: OK
+[2025-03-12 15:05:17.846] [INFO] [Transmitter] New transmitter initialized and ready
+[2025-03-12 15:05:17.864] [INFO] [Transmitter] Connected to next component
+[2025-03-12 15:05:17.870] [INFO] [TelegraphSystem] Starting transmission of message: 'SOS'
+[2025-03-12 15:05:17.923] [INFO] [Transmitter] Attempting to send message: 'SOS'
+[2025-03-12 15:05:17.923] [INFO] [Transmitter] Converting message to Morse code
+[2025-03-12 15:05:17.926] [INFO] [Transmitter] Morse code generated: ... --- ...
+[2025-03-12 15:05:17.926] [INFO] [Transmitter] Creating signal with initial strength: 100%
+[2025-03-12 15:05:17.926] [INFO] [Transmitter] Transmitting signal to next component
+[2025-03-12 15:05:17.947] [INFO] [TelegraphSystem] Verifying message integrity
+[2025-03-12 15:05:17.947] [INFO] [TelegraphSystem] Message integrity verified: OK
+[2025-03-12 15:08:44.906] [INFO] [Transmitter] New transmitter initialized and ready
+[2025-03-12 15:08:44.952] [INFO] [Cable] New cable initialized: length=50.0km, degradation=10.0% per km
+[2025-03-12 15:08:44.952] [INFO] [Cable] New cable initialized: length=20.0km, degradation=2.0% per km
+[2025-03-12 15:08:44.961] [INFO] [Transmitter] Connected to next component
+[2025-03-12 15:08:44.961] [INFO] [Cable] Connected to a Relay
+[2025-03-12 15:08:44.968] [INFO] [Cable] Connected to a Receiver
+[2025-03-12 15:08:44.968] [INFO] [TelegraphSystem] Starting transmission of message: 'SOS'
+[2025-03-12 15:08:44.968] [INFO] [Transmitter] Attempting to send message: 'SOS'
+[2025-03-12 15:08:44.976] [INFO] [Transmitter] Converting message to Morse code
+[2025-03-12 15:08:44.976] [INFO] [Transmitter] Morse code generated: ... --- ...
+[2025-03-12 15:08:44.976] [INFO] [Transmitter] Creating signal with initial strength: 100%
+[2025-03-12 15:08:44.976] [INFO] [Transmitter] Transmitting signal to next component
+[2025-03-12 15:08:44.985] [INFO] [Cable] Transmitting signal through 50.0km cable
+[2025-03-12 15:08:44.985] [INFO] [Cable] Initial signal strength: 100.0%
+[2025-03-12 15:08:44.995] [INFO] [Cable] Signal strength at km 8: 20.0%
+[2025-03-12 15:08:44.995] [INFO] [Cable] Signal strength at km 9: 10.0%
+[2025-03-12 15:08:44.995] [INFO] [Cable] Signal strength at km 10: 0.0%
+[2025-03-12 15:08:45.001] [WARNING] [Cable] Signal weakened below threshold 10.0% at kilometer 10
+[2025-03-12 15:08:45.001] [INFO] [Cable] Signal is weak but next component is a relay. Transmitting anyway...
+[2025-03-12 15:08:45.009] [INFO] [Cable] Transmitting signal through 20.0km cable
+[2025-03-12 15:08:45.009] [INFO] [Cable] Initial signal strength: 100.0%
+[2025-03-12 15:08:45.009] [INFO] [Cable] Signal strength at km 10: 80.0%
+[2025-03-12 15:08:45.009] [INFO] [Cable] Signal strength at km 20: 60.0%
+[2025-03-12 15:08:45.009] [INFO] [Cable] Signal successfully transmitted through entire cable
+[2025-03-12 15:08:45.009] [INFO] [Cable] Passing signal to next component
+[2025-03-12 15:08:45.017] [INFO] [TelegraphSystem] Verifying message integrity
+[2025-03-12 15:08:45.017] [INFO] [TelegraphSystem] Message integrity verified: OK
+[2025-03-12 15:15:14.745] [INFO] [Transmitter] New transmitter initialized and ready
+[2025-03-12 15:15:14.779] [INFO] [Cable] New cable initialized: length=50.0km, degradation=10.0% per km
+[2025-03-12 15:15:14.787] [INFO] [Relay] New relay initialized: active=true, batteryLevel=100%
+[2025-03-12 15:15:14.787] [INFO] [Cable] New cable initialized: length=20.0km, degradation=2.0% per km
+[2025-03-12 15:15:14.787] [INFO] [Receiver] New receiver initialized
+[2025-03-12 15:15:14.795] [INFO] [Transmitter] Connected to next component
+[2025-03-12 15:15:14.795] [INFO] [Cable] Connected to a Relay
+[2025-03-12 15:15:14.798] [INFO] [Relay] Connected to a Cable
+[2025-03-12 15:15:14.798] [INFO] [Cable] Connected to a Receiver
+[2025-03-12 15:15:14.803] [INFO] [TelegraphSystem] Starting transmission of message: 'SOS'
+[2025-03-12 15:15:14.803] [INFO] [Transmitter] Attempting to send message: 'SOS'
+[2025-03-12 15:15:14.806] [INFO] [Transmitter] Converting message to Morse code
+[2025-03-12 15:15:14.807] [INFO] [Transmitter] Morse code generated: ... --- ...
+[2025-03-12 15:15:14.807] [INFO] [Transmitter] Creating signal with initial strength: 100%
+[2025-03-12 15:15:14.811] [INFO] [Transmitter] Transmitting signal to next component
+[2025-03-12 15:15:14.811] [INFO] [Cable] Transmitting signal through 50.0km cable
+[2025-03-12 15:15:14.816] [INFO] [Cable] Initial signal strength: 100.0%
+[2025-03-12 15:15:14.824] [INFO] [Cable] Signal strength at km 8: 20.0%
+[2025-03-12 15:15:14.824] [INFO] [Cable] Signal strength at km 9: 10.0%
+[2025-03-12 15:15:14.827] [INFO] [Cable] Signal strength at km 10: 0.0%
+[2025-03-12 15:15:14.833] [WARNING] [Cable] Signal weakened below threshold 10.0% at kilometer 10
+[2025-03-12 15:15:14.835] [INFO] [Cable] Signal is weak but next component is a relay. Transmitting anyway...
+[2025-03-12 15:15:14.835] [INFO] [Relay] Receiving signal with strength: 0.0%
+[2025-03-12 15:15:14.835] [INFO] [Relay] Amplifying signal from 0.0% to 100%
+[2025-03-12 15:15:14.843] [INFO] [Relay] Battery level after amplification: 90%
+[2025-03-12 15:15:14.844] [INFO] [Relay] Forwarding amplified signal to next component
+[2025-03-12 15:15:14.844] [INFO] [Cable] Transmitting signal through 20.0km cable
+[2025-03-12 15:15:14.844] [INFO] [Cable] Initial signal strength: 100.0%
+[2025-03-12 15:15:14.844] [INFO] [Cable] Signal strength at km 10: 80.0%
+[2025-03-12 15:15:14.844] [INFO] [Cable] Signal strength at km 20: 60.0%
+[2025-03-12 15:15:14.844] [INFO] [Cable] Signal successfully transmitted through entire cable
+[2025-03-12 15:15:14.844] [INFO] [Cable] Passing signal to next component
+[2025-03-12 15:15:14.844] [INFO] [Receiver] Signal received with strength 60.0%
+[2025-03-12 15:15:14.852] [INFO] [Receiver] Morse code received: ... --- ...
+[2025-03-12 15:15:14.852] [INFO] [Receiver] Successfully decoded message: 'SOS'
+[2025-03-12 15:15:14.852] [INFO] [Receiver] Displaying message: 'SOS'
+[2025-03-12 15:15:14.852] [INFO] [TelegraphSystem] Verifying message integrity
+[2025-03-12 15:15:14.857] [INFO] [TelegraphSystem] Message integrity verified: OK
+[2025-03-12 15:29:00.054] [INFO] [Transmitter] New transmitter initialized and ready
+[2025-03-12 15:29:00.074] [INFO] [Cable] New cable initialized: length=50.0km, degradation=10.0% per km, failure probability=5.0% per 10km
+[2025-03-12 15:29:00.076] [INFO] [Relay] New relay initialized: active=true, batteryLevel=100%
+[2025-03-12 15:29:00.076] [INFO] [Cable] New cable initialized: length=20.0km, degradation=2.0% per km, failure probability=5.0% per 10km
+[2025-03-12 15:29:00.077] [INFO] [Receiver] New receiver initialized
+[2025-03-12 15:29:00.079] [INFO] [Transmitter] Connected to next component
+[2025-03-12 15:29:00.084] [INFO] [Cable] Connected to a Relay
+[2025-03-12 15:29:00.084] [INFO] [Relay] Connected to a Cable
+[2025-03-12 15:29:00.085] [INFO] [Cable] Connected to a Receiver
+[2025-03-12 15:29:00.087] [INFO] [TelegraphSystem] Starting transmission of message: 'SOS'
+[2025-03-12 15:29:00.088] [INFO] [Transmitter] Attempting to send message: 'SOS'
+[2025-03-12 15:29:00.088] [INFO] [Transmitter] Converting message to Morse code
+[2025-03-12 15:29:00.090] [INFO] [Transmitter] Morse code generated: ... --- ...
+[2025-03-12 15:29:00.090] [INFO] [Transmitter] Creating signal with initial strength: 100%
+[2025-03-12 15:29:00.091] [INFO] [Transmitter] Transmitting signal to next component
+[2025-03-12 15:29:00.092] [INFO] [Cable] Transmitting signal through 50.0km cable
+[2025-03-12 15:29:00.093] [INFO] [Cable] Initial signal strength: 100.0%
+[2025-03-12 15:29:00.097] [INFO] [Cable] Signal strength at km 8: 20.0%
+[2025-03-12 15:29:00.098] [INFO] [Cable] Signal strength at km 9: 10.0%
+[2025-03-12 15:29:00.098] [INFO] [Cable] Signal strength at km 10: 0.0%
+[2025-03-12 15:29:00.108] [INFO] [Cable] Random failure check: Ok (random value: 51,51, threshold: 5.0)
+[2025-03-12 15:29:00.111] [WARNING] [Cable] Signal weakened below threshold 10.0% at kilometer 10
+[2025-03-12 15:29:00.112] [INFO] [Cable] Signal is weak but next component is a relay. Transmitting anyway...
+[2025-03-12 15:29:00.112] [INFO] [Relay] Receiving signal with strength: 0.0%
+[2025-03-12 15:29:00.113] [INFO] [Relay] Amplifying signal from 0.0% to 100%
+[2025-03-12 15:29:00.114] [INFO] [Relay] Battery level after amplification: 90%
+[2025-03-12 15:29:00.115] [INFO] [Relay] Forwarding amplified signal to next component
+[2025-03-12 15:29:00.115] [INFO] [Cable] Transmitting signal through 20.0km cable
+[2025-03-12 15:29:00.116] [INFO] [Cable] Initial signal strength: 100.0%
+[2025-03-12 15:29:00.116] [INFO] [Cable] Signal strength at km 10: 80.0%
+[2025-03-12 15:29:00.117] [INFO] [Cable] Random failure check: Ok (random value: 69,84, threshold: 5.0)
+[2025-03-12 15:29:00.118] [INFO] [Cable] Signal strength at km 20: 60.0%
+[2025-03-12 15:29:00.118] [WARNING] [Cable] Random failure check: FAILURE (random value: 2,15, threshold: 5.0)
+[2025-03-12 15:29:00.119] [CRITICAL] [Cable] Random failure occurred at kilometer 20!
+[2025-03-12 15:29:00.119] [ERROR] [Cable] Signal lost due to cable failure
+[2025-03-12 15:29:00.120] [INFO] [Cable] Signal successfully transmitted through entire cable
+[2025-03-12 15:29:00.120] [INFO] [Cable] Passing signal to next component
+[2025-03-12 15:29:00.121] [INFO] [Receiver] Signal received with strength 60.0%
+[2025-03-12 15:29:00.121] [INFO] [Receiver] Morse code received: ... --- ...
+[2025-03-12 15:29:00.122] [INFO] [Receiver] Successfully decoded message: 'SOS'
+[2025-03-12 15:29:00.122] [INFO] [Receiver] Displaying message: 'SOS'
+[2025-03-12 15:29:00.123] [INFO] [TelegraphSystem] Verifying message integrity
+[2025-03-12 15:29:00.123] [INFO] [TelegraphSystem] Message integrity verified: OK
+[2025-03-12 15:30:28.294] [INFO] [Transmitter] New transmitter initialized and ready
+[2025-03-12 15:30:28.312] [INFO] [Cable] New cable initialized: length=50.0km, degradation=10.0% per km, failure probability=5.0% per 10km
+[2025-03-12 15:30:28.313] [INFO] [Relay] New relay initialized: active=true, batteryLevel=100%
+[2025-03-12 15:30:28.314] [INFO] [Cable] New cable initialized: length=20.0km, degradation=2.0% per km, failure probability=5.0% per 10km
+[2025-03-12 15:30:28.315] [INFO] [Receiver] New receiver initialized
+[2025-03-12 15:30:28.317] [INFO] [Transmitter] Connected to next component
+[2025-03-12 15:30:28.318] [INFO] [Cable] Connected to a Relay
+[2025-03-12 15:30:28.318] [INFO] [Relay] Connected to a Cable
+[2025-03-12 15:30:28.319] [INFO] [Cable] Connected to a Receiver
+[2025-03-12 15:30:28.321] [INFO] [TelegraphSystem] Starting transmission of message: 'SOS'
+[2025-03-12 15:30:28.322] [INFO] [Transmitter] Attempting to send message: 'SOS'
+[2025-03-12 15:30:28.322] [INFO] [Transmitter] Converting message to Morse code
+[2025-03-12 15:30:28.323] [INFO] [Transmitter] Morse code generated: ... --- ...
+[2025-03-12 15:30:28.324] [INFO] [Transmitter] Creating signal with initial strength: 100%
+[2025-03-12 15:30:28.325] [INFO] [Transmitter] Transmitting signal to next component
+[2025-03-12 15:30:28.325] [INFO] [Cable] Transmitting signal through 50.0km cable
+[2025-03-12 15:30:28.326] [INFO] [Cable] Initial signal strength: 100.0%
+[2025-03-12 15:30:28.330] [INFO] [Cable] Signal strength at km 8: 20.0%
+[2025-03-12 15:30:28.331] [INFO] [Cable] Signal strength at km 9: 10.0%
+[2025-03-12 15:30:28.331] [INFO] [Cable] Signal strength at km 10: 0.0%
+[2025-03-12 15:30:28.341] [INFO] [Cable] Random failure check: Ok (random value: 91,51, threshold: 5.0)
+[2025-03-12 15:30:28.344] [WARNING] [Cable] Signal weakened below threshold 10.0% at kilometer 10
+[2025-03-12 15:30:28.345] [INFO] [Cable] Signal is weak but next component is a relay. Transmitting anyway...
+[2025-03-12 15:30:28.346] [INFO] [Relay] Receiving signal with strength: 0.0%
+[2025-03-12 15:30:28.346] [INFO] [Relay] Amplifying signal from 0.0% to 100%
+[2025-03-12 15:30:28.348] [INFO] [Relay] Battery level after amplification: 90%
+[2025-03-12 15:30:28.348] [INFO] [Relay] Forwarding amplified signal to next component
+[2025-03-12 15:30:28.349] [INFO] [Cable] Transmitting signal through 20.0km cable
+[2025-03-12 15:30:28.349] [INFO] [Cable] Initial signal strength: 100.0%
+[2025-03-12 15:30:28.350] [INFO] [Cable] Signal strength at km 10: 80.0%
+[2025-03-12 15:30:28.350] [INFO] [Cable] Random failure check: Ok (random value: 16,65, threshold: 5.0)
+[2025-03-12 15:30:28.351] [INFO] [Cable] Signal strength at km 20: 60.0%
+[2025-03-12 15:30:28.351] [INFO] [Cable] Random failure check: Ok (random value: 75,82, threshold: 5.0)
+[2025-03-12 15:30:28.351] [INFO] [Cable] Signal successfully transmitted through entire cable
+[2025-03-12 15:30:28.352] [INFO] [Cable] Passing signal to next component
+[2025-03-12 15:30:28.352] [INFO] [Receiver] Signal received with strength 60.0%
+[2025-03-12 15:30:28.353] [INFO] [Receiver] Morse code received: ... --- ...
+[2025-03-12 15:30:28.354] [INFO] [Receiver] Successfully decoded message: 'SOS'
+[2025-03-12 15:30:28.354] [INFO] [Receiver] Displaying message: 'SOS'
+[2025-03-12 15:30:28.354] [INFO] [TelegraphSystem] Verifying message integrity
+[2025-03-12 15:30:28.355] [INFO] [TelegraphSystem] Message integrity verified: OK
+[2025-03-12 15:30:36.798] [INFO] [Transmitter] New transmitter initialized and ready
+[2025-03-12 15:30:36.815] [INFO] [Cable] New cable initialized: length=50.0km, degradation=10.0% per km, failure probability=5.0% per 10km
+[2025-03-12 15:30:36.817] [INFO] [Relay] New relay initialized: active=true, batteryLevel=100%
+[2025-03-12 15:30:36.817] [INFO] [Cable] New cable initialized: length=20.0km, degradation=2.0% per km, failure probability=5.0% per 10km
+[2025-03-12 15:30:36.818] [INFO] [Receiver] New receiver initialized
+[2025-03-12 15:30:36.820] [INFO] [Transmitter] Connected to next component
+[2025-03-12 15:30:36.820] [INFO] [Cable] Connected to a Relay
+[2025-03-12 15:30:36.821] [INFO] [Relay] Connected to a Cable
+[2025-03-12 15:30:36.821] [INFO] [Cable] Connected to a Receiver
+[2025-03-12 15:30:36.823] [INFO] [TelegraphSystem] Starting transmission of message: 'SOS'
+[2025-03-12 15:30:36.824] [INFO] [Transmitter] Attempting to send message: 'SOS'
+[2025-03-12 15:30:36.824] [INFO] [Transmitter] Converting message to Morse code
+[2025-03-12 15:30:36.826] [INFO] [Transmitter] Morse code generated: ... --- ...
+[2025-03-12 15:30:36.826] [INFO] [Transmitter] Creating signal with initial strength: 100%
+[2025-03-12 15:30:36.827] [INFO] [Transmitter] Transmitting signal to next component
+[2025-03-12 15:30:36.828] [INFO] [Cable] Transmitting signal through 50.0km cable
+[2025-03-12 15:30:36.830] [INFO] [Cable] Initial signal strength: 100.0%
+[2025-03-12 15:30:36.833] [INFO] [Cable] Signal strength at km 8: 20.0%
+[2025-03-12 15:30:36.834] [INFO] [Cable] Signal strength at km 9: 10.0%
+[2025-03-12 15:30:36.834] [INFO] [Cable] Signal strength at km 10: 0.0%
+[2025-03-12 15:30:36.844] [INFO] [Cable] Random failure check: Ok (random value: 51,03, threshold: 5.0)
+[2025-03-12 15:30:36.847] [WARNING] [Cable] Signal weakened below threshold 10.0% at kilometer 10
+[2025-03-12 15:30:36.847] [INFO] [Cable] Signal is weak but next component is a relay. Transmitting anyway...
+[2025-03-12 15:30:36.848] [INFO] [Relay] Receiving signal with strength: 0.0%
+[2025-03-12 15:30:36.848] [INFO] [Relay] Amplifying signal from 0.0% to 100%
+[2025-03-12 15:30:36.849] [INFO] [Relay] Battery level after amplification: 90%
+[2025-03-12 15:30:36.850] [INFO] [Relay] Forwarding amplified signal to next component
+[2025-03-12 15:30:36.850] [INFO] [Cable] Transmitting signal through 20.0km cable
+[2025-03-12 15:30:36.851] [INFO] [Cable] Initial signal strength: 100.0%
+[2025-03-12 15:30:36.851] [INFO] [Cable] Signal strength at km 10: 80.0%
+[2025-03-12 15:30:36.852] [INFO] [Cable] Random failure check: Ok (random value: 68,63, threshold: 5.0)
+[2025-03-12 15:30:36.852] [INFO] [Cable] Signal strength at km 20: 60.0%
+[2025-03-12 15:30:36.852] [INFO] [Cable] Random failure check: Ok (random value: 50,76, threshold: 5.0)
+[2025-03-12 15:30:36.853] [INFO] [Cable] Signal successfully transmitted through entire cable
+[2025-03-12 15:30:36.853] [INFO] [Cable] Passing signal to next component
+[2025-03-12 15:30:36.854] [INFO] [Receiver] Signal received with strength 60.0%
+[2025-03-12 15:30:36.854] [INFO] [Receiver] Morse code received: ... --- ...
+[2025-03-12 15:30:36.855] [INFO] [Receiver] Successfully decoded message: 'SOS'
+[2025-03-12 15:30:36.855] [INFO] [Receiver] Displaying message: 'SOS'
+[2025-03-12 15:30:36.855] [INFO] [TelegraphSystem] Verifying message integrity
+[2025-03-12 15:30:36.856] [INFO] [TelegraphSystem] Message integrity verified: OK
+[2025-03-12 15:30:58.754] [INFO] [Transmitter] New transmitter initialized and ready
+[2025-03-12 15:30:58.772] [INFO] [Cable] New cable initialized: length=50.0km, degradation=10.0% per km, failure probability=5.0% per 10km
+[2025-03-12 15:30:58.773] [INFO] [Relay] New relay initialized: active=true, batteryLevel=100%
+[2025-03-12 15:30:58.774] [INFO] [Cable] New cable initialized: length=20.0km, degradation=2.0% per km, failure probability=5.0% per 10km
+[2025-03-12 15:30:58.775] [INFO] [Receiver] New receiver initialized
+[2025-03-12 15:30:58.777] [INFO] [Transmitter] Connected to next component
+[2025-03-12 15:30:58.777] [INFO] [Cable] Connected to a Relay
+[2025-03-12 15:30:58.777] [INFO] [Relay] Connected to a Cable
+[2025-03-12 15:30:58.778] [INFO] [Cable] Connected to a Receiver
+[2025-03-12 15:30:58.781] [INFO] [TelegraphSystem] Starting transmission of message: 'SOS'
+[2025-03-12 15:30:58.781] [INFO] [Transmitter] Attempting to send message: 'SOS'
+[2025-03-12 15:30:58.782] [INFO] [Transmitter] Converting message to Morse code
+[2025-03-12 15:30:58.783] [INFO] [Transmitter] Morse code generated: ... --- ...
+[2025-03-12 15:30:58.784] [INFO] [Transmitter] Creating signal with initial strength: 100%
+[2025-03-12 15:30:58.785] [INFO] [Transmitter] Transmitting signal to next component
+[2025-03-12 15:30:58.785] [INFO] [Cable] Transmitting signal through 50.0km cable
+[2025-03-12 15:30:58.786] [INFO] [Cable] Initial signal strength: 100.0%
+[2025-03-12 15:30:58.791] [INFO] [Cable] Signal strength at km 8: 20.0%
+[2025-03-12 15:30:58.791] [INFO] [Cable] Signal strength at km 9: 10.0%
+[2025-03-12 15:30:58.792] [INFO] [Cable] Signal strength at km 10: 0.0%
+[2025-03-12 15:30:58.802] [WARNING] [Cable] Random failure check: FAILURE (random value: 2,12, threshold: 5.0)
+[2025-03-12 15:30:58.804] [CRITICAL] [Cable] Random failure occurred at kilometer 10!
+[2025-03-12 15:30:58.804] [ERROR] [Cable] Signal lost due to cable failure
+[2025-03-12 15:30:58.805] [INFO] [TelegraphSystem] Verifying message integrity
+[2025-03-12 15:30:58.805] [ERROR] [TelegraphSystem] Message was not received
+[2025-03-12 15:30:58.806] [CRITICAL] [TelegraphSystem] Transmission failed: Message was not received

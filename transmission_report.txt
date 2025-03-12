@@ -1,0 +1,35 @@
+=== TRANSMISSION REPORT ===
+Status: FAILURE
+Failure reason Message was not received
+Original message: SOS
+Received message: 
+Message integrity: CORRUPTED
+Message similarity: 0,00%
+
+=== EVENT LOG ===
+[2025-03-12 15:30:58.754] [INFO] [Transmitter] New transmitter initialized and ready
+[2025-03-12 15:30:58.772] [INFO] [Cable] New cable initialized: length=50.0km, degradation=10.0% per km, failure probability=5.0% per 10km
+[2025-03-12 15:30:58.773] [INFO] [Relay] New relay initialized: active=true, batteryLevel=100%
+[2025-03-12 15:30:58.774] [INFO] [Cable] New cable initialized: length=20.0km, degradation=2.0% per km, failure probability=5.0% per 10km
+[2025-03-12 15:30:58.775] [INFO] [Receiver] New receiver initialized
+[2025-03-12 15:30:58.777] [INFO] [Transmitter] Connected to next component
+[2025-03-12 15:30:58.777] [INFO] [Cable] Connected to a Relay
+[2025-03-12 15:30:58.777] [INFO] [Relay] Connected to a Cable
+[2025-03-12 15:30:58.778] [INFO] [Cable] Connected to a Receiver
+[2025-03-12 15:30:58.781] [INFO] [TelegraphSystem] Starting transmission of message: 'SOS'
+[2025-03-12 15:30:58.781] [INFO] [Transmitter] Attempting to send message: 'SOS'
+[2025-03-12 15:30:58.782] [INFO] [Transmitter] Converting message to Morse code
+[2025-03-12 15:30:58.783] [INFO] [Transmitter] Morse code generated: ... --- ...
+[2025-03-12 15:30:58.784] [INFO] [Transmitter] Creating signal with initial strength: 100%
+[2025-03-12 15:30:58.785] [INFO] [Transmitter] Transmitting signal to next component
+[2025-03-12 15:30:58.785] [INFO] [Cable] Transmitting signal through 50.0km cable
+[2025-03-12 15:30:58.786] [INFO] [Cable] Initial signal strength: 100.0%
+[2025-03-12 15:30:58.791] [INFO] [Cable] Signal strength at km 8: 20.0%
+[2025-03-12 15:30:58.791] [INFO] [Cable] Signal strength at km 9: 10.0%
+[2025-03-12 15:30:58.792] [INFO] [Cable] Signal strength at km 10: 0.0%
+[2025-03-12 15:30:58.802] [WARNING] [Cable] Random failure check: FAILURE (random value: 2,12, threshold: 5.0)
+!. [2025-03-12 15:30:58.804] [CRITICAL] [Cable] Random failure occurred at kilometer 10!
+!. [2025-03-12 15:30:58.804] [ERROR] [Cable] Signal lost due to cable failure
+[2025-03-12 15:30:58.805] [INFO] [TelegraphSystem] Verifying message integrity
+!. [2025-03-12 15:30:58.805] [ERROR] [TelegraphSystem] Message was not received
+!. [2025-03-12 15:30:58.806] [CRITICAL] [TelegraphSystem] Transmission failed: Message was not received
