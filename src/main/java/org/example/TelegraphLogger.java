@@ -103,8 +103,8 @@ public class TelegraphLogger {
         System.out.println("-".repeat(80));
     }
 
-    public void printSucces(String message) {
-        System.out.println(BACKGROUND_GREEN + BLACK + BOLD + " SUCCES " + RESET + " " + GREEN + message + RESET);
+    public void printSuccess(String message) {
+        System.out.println(BACKGROUND_GREEN + BLACK + BOLD + " SUCCESS " + RESET + " " + GREEN + message + RESET);
     }
 
     public void printFailure(String message) {
